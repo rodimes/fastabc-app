@@ -6,5 +6,7 @@ ENV JAVA_TIMEZONE=America/Sao_Paulo
 ENV JAVA_OPTS="-XX:-OmitStackTraceInFastThrow -Xmx512m"
 
 RUN touch /tmp/test.mv.db
+RUN mkdir -p /opt/app/do_run/
+
 
 EXPOSE 8081
