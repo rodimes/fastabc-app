@@ -2,6 +2,6 @@
 set -o pipefail
 
 CONTAINER_NAME="fastabc-app"
-TAG=0.1
+#TAG=0.1
 
-docker build -t ${CONTAINER_NAME}:${TAG} .
+docker build -t ${CONTAINER_NAME} .
